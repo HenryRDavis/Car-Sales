@@ -9,18 +9,12 @@ const App = () => {
   const state = {
     additionalPrice: 0,
     car: {
-      price: 26395,
-      name: '2019 Ford Mustang',
+      price: 360420,
+      name: 'Lightning McQueen',
       image:
-        'https://cdn.motor1.com/images/mgl/0AN2V/s1/2019-ford-mustang-bullitt.jpg',
+        'https://i.pinimg.com/originals/ab/e8/88/abe888fb17f610d683c940ed14fb1105.jpg',
       features: []
     },
-    additionalFeatures: [
-      { id: 1, name: 'V-6 engine', price: 1500 },
-      { id: 2, name: 'Racing detail package', price: 1500 },
-      { id: 3, name: 'Premium sound system', price: 500 },
-      { id: 4, name: 'Rear spoiler', price: 250 }
-    ]
   };
 
   return (
